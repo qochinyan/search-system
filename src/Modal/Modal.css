@@ -1,0 +1,45 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.498);
+    top: 0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+.modal.active{
+    transform: scale(1);
+}
+.box1{
+    padding: 60px 80px;
+    background-color: rgb(56, 0, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    color: white;
+}
+.sure{
+    font-size: 27px;
+}
+.buts{  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.buts button{
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 7px 10px;
+}
+.yes{
+    background-color: rgb(33, 196, 0);
+}
+.no{
+    background-color: rgb(255, 0, 0);
+}

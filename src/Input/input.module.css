@@ -1,0 +1,88 @@
+body{
+    background:linear-gradient(to right,rgb(141, 18, 18),rgb(7, 25, 131))
+}
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.searchPlace button , input,.deleteBut,.copyBut,.pasteBut{
+    padding: 2px 5px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    color:rgb(40, 75, 113);
+    font-weight:bold
+}
+.searchPlace input{
+    width: 200px;
+}
+
+
+.searchPlace{
+    margin:0 auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.butDel{
+    /* width: 10px;
+    height: 10px; */
+    font-size: 10px;
+    padding: 3px 3px;
+    background-color: #e00404;
+    color: #fff;
+    border: .4px solid rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.itemDiv{
+    display: flex;
+    max-width: 500px;
+    margin: 10px 0 0 0;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.itemsDiv{
+    margin:20px 0;
+    padding: 0px 10px;
+    color: #fff;
+    
+}
+.edit{
+    font-size: 10px;
+    padding: 3px 3px;
+    background-color: #ed8e13;
+    color: #fff;
+    border: .4px solid rgb(255, 255, 255);
+    margin-left: 10px;
+
+}
+.save{
+    font-size: 10px;
+    padding: 3px 3px;
+    background-color: #3e9b08;
+    color: #fff;
+    border: .4px solid rgb(255, 255, 255);
+    margin-left: 10px;
+    display: none;
+}
+.txtEditor{
+    width: 100px;
+    display: none;
+}
+.check{
+    width: 20px;
+    margin-left: 5px;
+}
+.delTools{
+    width: inherit;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  padding: 30px;
+}
+
+.filter {
+  background-color: gray;
+}
+
+.list {
+  background-color: wheat;
+}
